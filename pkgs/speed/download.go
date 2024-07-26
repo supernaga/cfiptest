@@ -147,7 +147,7 @@ func (st *CFSpeedTest) getDownloadSpeed(ip string, port int) (float64, string, e
 			select {
 			case <-ticker.C:
 				elapsed := time.Since(startTime).Seconds()
-				speed := float64(written) / elapsed / 1024 / 1024
+				speed := float64(written) / elapsed / 1024
 				if speed < 0.7*float64(st.MinSpeed) {
 					stop <- true
 				}
