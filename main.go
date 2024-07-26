@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	asn2 "github.com/jackrun123/cfiptest/pkgs/asn"
+	asn2 "github.com/jackrun123/cfiptesgithub.com/supernaga/cfiptest/pkgs/asn"
 	"github.com/jackrun123/cfiptest/pkgs/speed"
 	"math/rand"
 	"net/http"
